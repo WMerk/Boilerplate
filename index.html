@@ -3,6 +3,7 @@
 <head>
   <title>Awesome Boilerplate</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta charset="utf-8"/>
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="design/index.css">
 </head>
@@ -12,17 +13,39 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<label><a href=#content>Jump To Content</a></label><br>
+				<label><a href=#footer>Jump To Footer</a></label><br>
+				<label><a href=#kitties>Jump To Kitties</a></label>
 			</p>
 		</div>
 	</header>
-	<main>
+	<main id="content">
 		<section>
 			<article>
 			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
+			<div>
+				<label>Name</label><input/>
+			</div>
+			<div>
+				<label>Vorname</label><input/>
+			</div>
+			<div>
+				<label>Email</label><input/>
+			</div>
+			<div>
+				<label>Telefonnummer</label><input/>
+			</div>
+			<div>
+				<label>Geburtsdatum</label><input/>
+			</div>
+			<div>
+				<label>Liste</label>
+				<select>
+					<option>UIB</option>
+					<option>IB</option>
+					<option>IMB</option>
+				</select>
+			</div>
 
 			</article>
 
@@ -63,14 +86,14 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<img src="img/nodschool.svg"></a>
+	<footer id="footer">
+		<img src="img/nodeschool.svg"></a>
 	</footer>
 	<script src="design/index.js"></script>
 </body>

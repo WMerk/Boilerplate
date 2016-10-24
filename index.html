@@ -22,30 +22,33 @@
 	<main id="content">
 		<section>
 			<article>
-			<!--ToDo Input Fields-->	
-			<div>
-				<label>Name</label><input/>
-			</div>
-			<div>
-				<label>Vorname</label><input/>
-			</div>
-			<div>
-				<label>Email</label><input/>
-			</div>
-			<div>
-				<label>Telefonnummer</label><input/>
-			</div>
-			<div>
-				<label>Geburtsdatum</label><input/>
-			</div>
-			<div>
-				<label>Liste</label>
-				<select>
-					<option>UIB</option>
-					<option>IB</option>
-					<option>IMB</option>
-				</select>
-			</div>
+			<!--ToDo Input Fields-->
+				<form>
+					<div style="width: auto">
+						<label for="name">Name</label><input id="name" type="text"/>
+					</div>
+					<div>
+						<label for="vorname">Vorname</label><input id="vorname" type="text"/>
+					</div>
+					<div>
+						<label for="email">Email</label><input id="email" type="email"/>
+					</div>
+					<div>
+						<label for="tel">Telefonnummer</label><input id="tel" type="number"/>
+					</div>
+					<div>
+						<label for="gebDatum">Geburtsdatum</label><input id="gebDatum" type="date"/>
+					</div>
+					<div>
+						<label for="sel1">Liste</label>
+						<select id="sel1">
+							<option>UIB</option>
+							<option>IB</option>
+							<option>IMB</option>
+						</select>
+					</div>
+					<button type="submit">Abschicken</button>
+				</form>
 
 			</article>
 
@@ -93,7 +96,7 @@
 		</section>
 	</main>
 	<footer id="footer">
-		<img src="img/nodeschool.svg"></a>
+		<img src="img/nodeschool.svg">
 	</footer>
 	<script src="design/index.js"></script>
 </body>
